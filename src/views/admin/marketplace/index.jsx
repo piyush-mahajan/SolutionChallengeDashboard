@@ -82,7 +82,7 @@ export default function Marketplace() {
               align={{ base: "start", md: "center" }}
             >
               <Text color={textColor} fontSize="2xl" ms="24px" fontWeight="700">
-                Trending Manufacturor
+                What You Want?
               </Text>
               <Flex
                 align="center"
@@ -96,7 +96,7 @@ export default function Marketplace() {
                   me={{ base: "34px", md: "44px" }}
                   to="#art"
                 >
-                  Two Wheelers
+                  Fat Loss
                 </Link>
                 <Link
                   color={textColorBrand}
@@ -104,7 +104,7 @@ export default function Marketplace() {
                   me={{ base: "34px", md: "44px" }}
                   to="#music"
                 >
-                  Cars
+                  Muscle Gain
                 </Link>
                 <Link
                   color={textColorBrand}
@@ -112,16 +112,16 @@ export default function Marketplace() {
                   me={{ base: "34px", md: "44px" }}
                   to="#collectibles"
                 >
-                  Trucks
+                  Asthetic
                 </Link>
                 <Link color={textColorBrand} fontWeight="500" to="#sports">
-                  Cargo
+                  Lean Bulk
                 </Link>
               </Flex>
             </Flex>
             <SimpleGrid columns={{ base: 1, md: 3 }} gap="20px">
               <NFT
-                name="TransIndia Logistics"
+                name="Iron Temple Gym"
                 author="By Ravi Sharma"
                 bidders={[
                   Avatar1,
@@ -138,7 +138,7 @@ export default function Marketplace() {
                 download="#"
               />
               <NFT
-                name="Speedy Cargo Solutions"
+                name="Powerhouse Fitness Studio"
                 author="By Ananya Reddy"
                 bidders={[
                   Avatar1,
@@ -155,7 +155,7 @@ export default function Marketplace() {
                 download="#"
               />
               <NFT
-                name="EcoTrans India "
+                name="Flex Fitness Hub "
                 author="By Arjun Kapoor"
                 bidders={[
                   Avatar1,
@@ -188,7 +188,7 @@ export default function Marketplace() {
               mb={{ base: "20px", xl: "0px" }}
             >
               <NFT
-                name="SwiftShift Transport"
+                name="Shredded Physique Gym"
                 author="By Priya Singh"
                 bidders={[
                   Avatar1,
@@ -205,7 +205,7 @@ export default function Marketplace() {
                 download="#"
               />
               <NFT
-                name="GreenWheels Freight"
+                name="Stronghold Gym"
                 author="By Sameer Verma"
                 bidders={[
                   Avatar1,
@@ -222,7 +222,7 @@ export default function Marketplace() {
                 download="#"
               />
               <NFT
-                name="GoldenLine Transporters"
+                name="Body Sculptor Fitness Club"
                 author="By Rajesh Patel"
                 bidders={[
                   Avatar1,
@@ -266,42 +266,42 @@ export default function Marketplace() {
             </Flex>
 
             <HistoryItem
-              name="SwiftCargo Connections"
+              name="Muscle Mania Fitness Center"
               author="By Deepak Kumar"
               date="30s ago"
               image={Nft5}
               price="1500 RS"
             />
             <HistoryItem
-              name="GreenRoute Carriers"
+              name="Iron Temple Gym"
               author="By Mala Singhania"
               date="58s ago"
               image={Nft1}
               price="1500 RS"
             />
             <HistoryItem
-              name="GlobalLink Shipping"
+              name="Powerhouse Fitness Studio"
               author="By Rajiv Verma"
               date="1m ago"
               image={Nft2}
               price="1500 RS"
             />
             <HistoryItem
-              name="Reliable Roadways"
+              name="Flex Fitness Hub"
               author="By Preeti Shah"
               date="1m ago"
               image={Nft4}
               price="1500 RS"
             />
             <HistoryItem
-              name="UrbanHaul Carg "
+              name="Shredded Physique Gym"
               author="By Sandeep Tiwari"
               date="2m ago"
               image={Nft3}
               price="1500 RS"
             />
             <HistoryItem
-              name="SafeTrans India"
+              name="Stronghold Gym"
               author="By Manish Yadav"
               date="3m ago"
               image={Nft6}

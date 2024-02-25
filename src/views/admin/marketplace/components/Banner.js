@@ -34,7 +34,7 @@ export default function Banner() {
         fontWeight="700"
         lineHeight={{ base: "32px", md: "42px" }}
       >
-        Design, Create, and Offer Unique Products
+        Fitness Challenge Leaderboard
       </Text>
       <Text
         fontSize="md"
@@ -51,8 +51,10 @@ export default function Banner() {
         mb="40px"
         lineHeight="28px"
       >
-        Step into the innovative manufacturing world. Explore the latest
-        products or begin crafting your own!
+        Track your progress and compete with others in our Fitness Challenge
+        Leaderboard! Earn points for every exercise completed and see where you
+        stand among fellow participants. Stay motivated, stay active, and climb
+        the ranks to become the ultimate fitness champion
       </Text>
       <Flex align="center">
         <Button
@@ -67,11 +69,11 @@ export default function Banner() {
           px="27"
           me="38px"
         >
-          Place Now
+          Start Now
         </Button>
         <Link>
           <Text color="white" fontSize="sm" fontWeight="500">
-            Watch Deals
+            Watch Excercises
           </Text>
         </Link>
       </Flex>

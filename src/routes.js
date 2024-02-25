@@ -27,6 +27,21 @@ const routes = [
     icon: <Icon as={MdHome} width="20px" height="20px" color="inherit" />,
     component: MainDashboard,
   },
+  {
+    name: "LeaderBoard:",
+    layout: "/admin",
+    path: "/nft-marketplace",
+    icon: (
+      <Icon
+        as={MdOutlineShoppingCart}
+        width="20px"
+        height="20px"
+        color="inherit"
+      />
+    ),
+    component: NFTMarketplace,
+    secondary: true,
+  },
 ];
 
 export default routes;

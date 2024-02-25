@@ -60,7 +60,7 @@ function TopCreatorTable(props) {
           boxShadow="0px 40px 58px -20px rgba(112, 144, 176, 0.26)"
         >
           <Text color={textColor} fontSize="xl" fontWeight="600">
-            Top Transportor
+            LeaderBoard
           </Text>
           <Button variant="action">See all</Button>
         </Flex>
@@ -114,7 +114,7 @@ function TopCreatorTable(props) {
                           </Text>
                         </Flex>
                       );
-                    } else if (cell.column.Header === "Deals") {
+                    } else if (cell.column.Header === "Exc Point") {
                       data = (
                         <Text
                           color={textColorSecondary}

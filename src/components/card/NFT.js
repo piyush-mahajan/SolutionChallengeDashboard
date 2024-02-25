@@ -562,11 +562,11 @@ export default function NFT(props) {
             }}
             mt="25px"
           >
-            <Text fontWeight="700" fontSize="sm" color={textColorBid}>
+            {/* <Text fontWeight="700" fontSize="sm" color={textColorBid}>
               Minimum Bid: {currentbid}
-            </Text>
+            </Text> */}
             <form onSubmit={handleUserBidSubmit}>
-              <input
+              {/* <input
                 type="text"
                 placeholder="Your Bid Amount"
                 style={{
@@ -576,7 +576,7 @@ export default function NFT(props) {
                 }}
                 onChange={handleUserBidChange}
                 value={userBid}
-              />
+              /> */}
               <Link
                 href={download}
                 mt={{
@@ -600,30 +600,12 @@ export default function NFT(props) {
                     px="24px"
                     py="5px"
                   >
-                    Place Bid
+                    Start Now
                   </Button>
                 )}
               </Link>
             </form>
           </Flex>
-          {isUserBidLower && (
-            <Flex
-              align="start"
-              justify="space-between"
-              direction={{
-                base: "row",
-                md: "column",
-                lg: "row",
-                xl: "column",
-                "2xl": "row",
-              }}
-              mt="10px"
-            >
-              <Text fontWeight="700" fontSize="sm" color={textColorBid}>
-                Your Bid: {userBid}
-              </Text>
-            </Flex>
-          )}
         </Flex>
       </Flex>
     </Card>
